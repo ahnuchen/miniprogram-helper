@@ -8,8 +8,6 @@ var wm = null;
 if (typeof wx !== "undefined") {
     // 微信小程序
     wm = wx;
-} else if (typeof swan !== "undefined") {
-    wm = swan;
 } else {
     // 支付宝小城
     wm = my;

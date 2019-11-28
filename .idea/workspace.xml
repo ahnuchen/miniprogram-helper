@@ -2,46 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba75ed92-7732-4a53-907a-9bdfeec756f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/miniprogram-helper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/.tea/configuration/mini-program.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/.tea/configuration/node-package-manager.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/.tea/entryFiles-development/config$.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/.tea/entryFiles-development/importScripts$.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/.tea/entryFiles-development/index$.web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/.tea/entryFiles-development/index$.worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/app.acss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/core/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/index/index.acss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/index/index.axml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/index/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/index/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/logs/logs.acss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/logs/logs.axml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/logs/logs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/pages/logs/logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/snapshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ali-app/utils/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/app.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/core/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/index/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/index/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/index/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/index/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/logs/logs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/logs/logs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/logs/logs.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/pages/logs/logs.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/project.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/sitemap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-app/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/.tea/configuration/mini-program.json" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/.tea/configuration/mini-program.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/core/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/core/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/pages/index/index.axml" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/pages/index/index.axml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/pages/logs/logs.axml" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/pages/logs/logs.axml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/pages/logs/logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/pages/logs/logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ali-app/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/ali-app/utils/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-app/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-app/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-app/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-app/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-app/pages/logs/logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-app/pages/logs/logs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-app/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-app/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-app/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-app/utils/util.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,30 +28,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ali-app/app.js">
+        <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.axml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wechat-app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ali-app/core/core.js">
+        <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="325">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -84,8 +50,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="250">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ali-app/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ali-app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ali-app/pages/logs/logs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-app/pages/logs/logs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-app/core/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wechat-app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -104,6 +133,8 @@
       <find>hj</find>
       <find>wx.</find>
       <find>login</find>
+      <find>canIUse</find>
+      <find>utils</find>
     </findStrings>
     <replaceStrings>
       <replace>wm</replace>
@@ -124,11 +155,16 @@
         <option value="$PROJECT_DIR$/ali-app/app.acss" />
         <option value="$PROJECT_DIR$/ali-app/app.json" />
         <option value="$PROJECT_DIR$/wechat-app/pages/index/index.wxss" />
-        <option value="$PROJECT_DIR$/ali-app/pages/index/index.axml" />
-        <option value="$PROJECT_DIR$/ali-app/pages/logs/logs.js" />
-        <option value="$PROJECT_DIR$/ali-app/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/ali-app/core/core.js" />
+        <option value="$PROJECT_DIR$/wechat-app/utils/util.js" />
         <option value="$PROJECT_DIR$/wechat-app/core/core.js" />
+        <option value="$PROJECT_DIR$/ali-app/pages/logs/logs.axml" />
+        <option value="$PROJECT_DIR$/ali-app/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/wechat-app/pages/index/index.js" />
         <option value="$PROJECT_DIR$/wechat-app/pages/logs/logs.js" />
+        <option value="$PROJECT_DIR$/ali-app/pages/logs/logs.js" />
+        <option value="$PROJECT_DIR$/ali-app/pages/index/index.axml" />
+        <option value="$PROJECT_DIR$/wechat-app/pages/index/index.wxml" />
         <option value="$PROJECT_DIR$/ali-app/app.js" />
         <option value="$PROJECT_DIR$/wechat-app/app.js" />
       </list>
@@ -145,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,59 +192,48 @@
             <path>
               <item name="miniprogram-helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="miniprogram-helper" type="462c0819:PsiDirectoryNode" />
-              <item name="ali-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miniprogram-helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="miniprogram-helper" type="462c0819:PsiDirectoryNode" />
-              <item name="ali-app" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniprogram-helper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniprogram-helper" type="462c0819:PsiDirectoryNode" />
-              <item name="ali-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-app" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miniprogram-helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="miniprogram-helper" type="462c0819:PsiDirectoryNode" />
-              <item name="ali-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-app" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="miniprogram-helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="miniprogram-helper" type="462c0819:PsiDirectoryNode" />
-              <item name="ali-app" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-app" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniprogram-helper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniprogram-helper" type="462c0819:PsiDirectoryNode" />
-              <item name="wechat-app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ali-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ali-app/pages/index" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app" />
-      <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app\pages\logs" />
       <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app\pages\index" />
+      <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app" />
+      <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app\utils" />
+      <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app\pages\logs" />
       <recent name="C:\Users\chenc\Desktop\miniprogram-helper\ali-app\pages" />
     </key>
   </component>
@@ -234,7 +260,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574155785319</updated>
       <workItem from="1574155789407" duration="540000" />
-      <workItem from="1574156335856" duration="2960000" />
+      <workItem from="1574156335856" duration="6331000" />
+      <workItem from="1574239006173" duration="51000" />
+      <workItem from="1574923376921" duration="2807000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1574155912015</created>
@@ -243,17 +271,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574155912015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1574159587525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574159587525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3500000" />
+    <option name="totallyTimeSpent" value="9729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,13 +384,6 @@
     <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ali-app/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wechat-app/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -370,31 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.acss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali-app/pages/logs/logs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -405,72 +412,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechat-app/core/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechat-app/pages/logs/logs.js">
+    <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.acss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-app/pages/logs/logs.axml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ali-app/utils/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat-app/utils/util.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.axml">
+    <entry file="file://$PROJECT_DIR$/ali-app/core/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-app/snapshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-app/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-app/core/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-app/pages/logs/logs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-app/pages/logs/logs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-app/pages/index/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ali-app/core/core.js">
+    <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.axml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ali-app/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ali-app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat-app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="325">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>

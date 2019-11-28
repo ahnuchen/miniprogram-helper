@@ -1,14 +1,13 @@
 //logs.js
-const util = require('../../utils/util.js')
-
+const app = getApp()
 Page({
   data: {
     logs: []
   },
   onLoad: function () {
     this.setData({
-      logs: (getApp().core.getStorageSync('logs') || []).map(log => {
-        return util.formatTime(new Date(log))
+      logs: (app.core.getStorageSync('logs') || []).map(log => {
+        return app.utils.formatTime(new Date(log))
       })
     })
   }
