@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const watch = require('gulp-watch');
 const path = require('path')
 const fs = require('fs-extra')
+const {transFormFileContent} = require("./ast");
 
 const config = {
     copyFileLog: true,
@@ -12,7 +13,7 @@ const config = {
 const utils = {
     copyFiles(filePath, isDir, resourceDir, compileTargetDir) {
         var subFilePath = filePath.replace(path.resolve(resourceDir), '')
-        var copyTargetPath = path.join(path.resolve(compileTargetDir), subFilePath)
+        var copyTargetPath = utils.replaceTargetPath(path.join(path.resolve(compileTargetDir), subFilePath))
         if (isDir) {
             fs.ensureDirSync(copyTargetPath)
         } else {
@@ -23,12 +24,34 @@ const utils = {
         }
 
         function copy() {
-            fs.copyFile(path.resolve(filePath), copyTargetPath, function (err, res) {
-                if (err) {
-                    console.error(err.message)
+            fs.copyFileSync(path.resolve(filePath), copyTargetPath)
+            transFormFileContent(copyTargetPath)
+        }
+    },
+    replaceTargetPath(p) {
+        const wxExtList = ['.wxss', '.wxml']
+        const aliExtList = ['.acss', '.axml']
+        wxExtList.forEach((ext, index) => {
+            if (p.includes(ext)) {
+                p = p.replace(ext, aliExtList[index])
+            }
+        })
+        return p
+    },
+    build(resourceDir, compileTargetDir) {
+        function readDir(rootPath) {
+            const fileList = fs.readdirSync(rootPath)
+            fileList.forEach(f => {
+                let fPath = path.join(rootPath, f)
+                let fisDir = !fs.statSync(fPath).isFile()
+                utils.copyFiles(fPath, fisDir, resourceDir, compileTargetDir)
+                if (fisDir) {
+                    readDir(fPath)
                 }
             })
         }
+
+        readDir(resourceDir)
     }
 };
 /**
@@ -38,6 +61,10 @@ gulp.task('hot-reload', function () {
     return watch(config.resourceDir + '**', {events: ['add', 'change']}, function (file) {
         return utils.copyFiles(file.path, file.isDirectory(), config.resourceDir, config.compileTargetDir)
     })
+})
+
+gulp.task('build', function () {
+    return utils.build(config.resourceDir, config.compileTargetDir)
 })
 
 /**

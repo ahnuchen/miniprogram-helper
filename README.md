@@ -1,23 +1,50 @@
 # miniprogram-helper
 
 #### 介绍
-小程序开发助手，写微信小程序的同时，实时生成支付宝小程序，开发者工具同步自动刷新
+小程序开发助手，写微信小程序的同时，实时生成支付宝小程序，开发者工具同步自动刷新,可以转换现有
+微信小程序为支付宝小程序（需要做兼容处理）
 
 #### 软件架构
-软件架构说明
-
+gulp,nodejs文件处理, core.js核心库，兼容支付宝微信小程序api
 
 #### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```npm install```
+#####实时编译：
+```npm start```
+#####转换小程序：
+```npm run build```
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+一. 找到根目录下gulpfile.js,将resourceDir(小程序小程序)目录和compileTargetDir(支付宝小程序)替换为你自己放置目录
+```javascript
+const config = {
+    copyFileLog: true,
+    resourceDir: path.join(__dirname, 'wechat-app/'),
+    compileTargetDir: path.join(__dirname, 'ali-app/')
+};
+```
+
+二. 如果是现有小程序，需要在app.js引入core.js以及核心库代码
+```javascript
+//app.js
+let wm = null;
+let platform
+if (typeof wx !== 'undefined') {
+    wm = wx
+    platform = 'wx'
+}
+if (typeof my !== 'undefined') {
+    wm = my
+    platform = 'my'
+}
+App({
+    core: require('/core/core'),
+    utils: require('/utils/util.js'),
+    platform,
+})
+```
+并且将所有js文件中的```wx.```替换为```getApp().core.```
 
 #### 参与贡献
 
@@ -26,12 +53,4 @@
 3.  提交代码
 4.  新建 Pull Request
 
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+    

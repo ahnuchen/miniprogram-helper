@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '你好,bob',
     userInfo: {},
     hasUserInfo: false,
     canIUse: app.core.canIUse('button.open-type.getAuthorize')
