@@ -12,6 +12,7 @@ const config = {
 
 const utils = {
     copyFiles(filePath, isDir, resourceDir, compileTargetDir) {
+        fs.ensureDirSync(compileTargetDir)
         var subFilePath = filePath.replace(path.resolve(resourceDir), '')
         var copyTargetPath = utils.replaceTargetPath(path.join(path.resolve(compileTargetDir), subFilePath))
         if (isDir) {
