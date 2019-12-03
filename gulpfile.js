@@ -6,8 +6,8 @@ const {transFormFileContent} = require("./ast");
 
 const config = {
     copyFileLog: true,
-    resourceDir: path.join(__dirname, 'wechat-app/'),
-    compileTargetDir: path.join(__dirname, 'ali-app/')
+    resourceDir: path.join(__dirname, 'app/'),
+    compileTargetDir: path.join(__dirname, 'myapp/')
 };
 
 const utils = {
@@ -29,8 +29,8 @@ const utils = {
         }
     },
     replaceTargetPath(p) {
-        const wxExtList = ['.wxss', '.wxml']
-        const aliExtList = ['.acss', '.axml']
+        const wxExtList = ['.wxss', '.wxml', '.wxs']
+        const aliExtList = ['.acss', '.axml', '.sjs']
         wxExtList.forEach((ext, index) => {
             if (p.includes(ext)) {
                 p = p.replace(ext, aliExtList[index])
